@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ヘルシフードカフェ NATURAL KITCHEN</title>
+
+  <!-- フォント・M PLUS Rounded 1cの読み込み -->
+  
+  <!-- リセットcssの読み込み -->
+  <link href="assets/css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- cssの読み込み -->
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <!-- slickの読み込み -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  
+</head>
+
+<body> 
+  <!-- headerここから -->
+  <header class="header-pc">
+    <div class="shop-logo">
+      <p class="shop-logo-jp">ヘルシフードカフェ</p>
+      <h2 class="shop-logo-en">NATURAL KITCHEN</h2>  
+    </div>
+    <!-- PC用メニューボタン -->
+     <button class="menu-pc" onclick="document.getElementsByClassName('nav-pc-hamburger').style.display = 'block'">
+       <img src="assets/img/bt/bt-hamburger.png" alt="">
+     </button>
+   
+    <!-- PC用ナビゲーションリスト -->
+     <div class="nav-pc-hamburger">
+      <nav>
+        <ul>
+          <li class="nav-pc-list-in-hamburger">Healthy Food</li>
+          <li  class="nav-pc-list-in-hamburger">Menu</li>
+          <li class="nav-pc-list-in-hamburger">Blog</li>
+          <li class="nav-pc-list-in-hamburger">About us</li>
+          <li class="nav-pc-list-in-hamburger">Recruit</li>
+          <li class="nav-pc-list-in-hamburger">Contact</li>
+        </ul>
+      </nav>
+      <!-- 「閉じる」ボタン -->
+       <button class="bt-close-pc" onclick="document.getElementsByClassName('nav-pc-hamburger').style.display = 'none'">
+         <img src="assets/img/bt/bt-close.png" alt="">
+       </button>
+     </div>
+     <div class="sns-info-in-hamburger">
+       <p class="sns">SNS</p>
+       <img class="sns-icon" src="assets/img/sns/icon-instagram-beige.png" alt="インスタグラムのアイコン">
+       <img class="sns-icon" src="assets/img/sns/icon-x-beige.png" alt="xのアイコン">
+       <img class="sns-icon" src="assets/img/sns/icon-facebook-beige.png" alt="フェイスブックのアイコン">
+     </div>
+     <div class="address">
+       <p>
+         〒150-0021<br>
+         東京都渋谷区恵比寿西1-2-3
+       </p>
+     </div>
+     <div class="shop-logo-in-hamburger">
+      <p class="shop-logo-jp-in-hamburger">ヘルシフードカフェ</p>
+      <h2 class="shop-logo-en-in-hamburger">NATURAL KITCHEN</h2>
+     </div>
+  </header>
+  <!-- headerここまで -->
+   
+  <main>  
+    <!-- menuここから -->
+    <div main-elements-menu>
+      <h1 class="main-title-menu">Menu</h1>
+      <p class="main-info">
+        健康的で美味しい食事を楽しんでいただくために、当店では栄養バランスにこだわったヘルシーメニューをご用意しております。新鮮な野菜や良質なたんぱく質を使用し、カロリーを抑えつつも満足感のある一皿をお届けします。
+      </p>  
+    </div> 
+    <!-- menuここまで --> 
+     
+    <!-- 「オーガニックコーヒー」ここから -->
+     <h1 class="title-en">Organic Coffee</h1>
+     <div class="title-jp-elements-01">
+       <p>オーガニックコーヒー</p>
+       <p>¥500</p>
+     </div>
+     <img src="assets/img/menu/item-coffee.jpg" alt="オーガニックコーヒーの写真">
+     <div class="organic-coffee-info">
+      <p>
+        自然の恵みをそのまま味わえる、こだわりのオーガニックコーヒーをお届けします。農薬や化学肥料を一切使用せずに育てられたコーヒー豆は、豊かな香りと深いコクが特徴。自然環境にも配慮したサステナブルな方法で生産されており、体にもやさしく安心してお楽しみいただけます。
+      </p>
+     </div>
+    <!-- 「オーガニックコーヒー」ここまで -->
+
+
+    <!-- 「ブルーベリージュース」ここから -->
+    <h1 class="title-en">Blueberry Juice</h1>
+    <div class="title-jp-elements-02">
+      <p>ブルーベリージュース</p>
+      <p>¥760</p>
+    </div>
+    <img src="assets/img/menu/item-blueberry.jpg" alt="ブルーベリージュースの写真">
+    <div class="blueberry-juice-info">
+      <p>
+        甘酸っぱい爽やかな味わいが魅力のブルーベリージュース。厳選したブルーベリーを使用し、自然な甘みとフレッシュな風味を楽しめます。ポリフェノールやビタミンが豊富で、毎日の健康をサポート。スッキリとした後味で、朝の目覚めやリフレッシュにも最適です。
+      </p>
+    </div>
+    <!-- 「ブルーベリージュース」ここまで --> 
+
+
+    <!-- 「バジルパスタ」ここから -->
+    <h1 class="title-en">Basil pasta</h1>
+    <div class="title-jp-elements-03">
+      <p>バジルパスタ</p>
+      <p>¥1,100</p>
+    </div> 
+    <img src="assets/img/menu/item-pasta.jpg" alt="バジルパスタの写真">
+    <div class="basil-pasta-info">
+      <p>
+        爽やかなバジルの香りが広がるバジルパスタ。
+        新鮮なバジルをたっぷり使用した
+        自家製ジェノベーゼソースは濃厚ながらも後味が軽やか。
+        香ばしいナッツとチーズのコクが絶妙に絡み、
+        もちもちのパスタとともに贅沢な味わいが楽しめます。
+      </p>
+    </div>
+    <!-- 「バジルパスタ」ここまで -->
+    
+
+    <!-- 「四季のサラダ」ここから -->
+    <h1 class="title-en">Seasonal Salad</h1>
+    <div class="title-jp-elements-02">
+      <p>四季のサラダ</p>
+      <p>¥980</p>
+    </div>  
+    <img src="assets/img/menu/item-salad.jpg" alt="四季のサラダの写真">
+    <div class="seasonal-salad-info">
+      <p>
+        旬の食材をふんだんに使用した彩り豊かな四季のサラダ。季節ごとに厳選した新鮮な野菜やフルーツを組み合わせ、自然の美味しさを楽しめる一皿に仕上げています。シャキシャキ食感と自家製ドレッシングで素材本来の風味を引き立てます。
+      </p>
+    </div>
+    <!-- 「四季のサラダ」ここまで -->
+  </main>
+
+  <!-- フッターここから -->
+  <footer class="footer">
+    <p class="copyright">&copy;2025 NATURAL KITCHEN All Rights Reserved.</p>
+
+  </footer>
+  <!-- フッターここまで -->
+
+
+  <!-- slickの読み込み -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- JavaScriptの読み込み -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+@charset "UTF-8";
+h1 {
+  font-size: 80px;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-size: 20px;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "hiragino-mincho-pron", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #EDE8E4;
+}
+
+/* headerここから */
+/* 外枠のレイアウト */
+.header-pc {
+  width: 35.7%;
+  position: fixed;
+  top: 0; /* 画面上部に固定 */
+  left: 0;
+  z-index: 20;
+}
+
+/* 店名ロゴレイアウト */
+.shop-logo {
+  color: #5C5C5C;
+  margin-left: 2%;
+  z-index: 20;
+}
+
+/* 「ヘルシフードカフェ」の文字 */
+.shop-logo-jp {
+  font-size: 32px;
+  padding-top: 30px;
+  z-index: 20;
+}
+
+/* 「NATURAL KITCHEN」の文字 */
+.shop-logo-en {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* ナビゲーション */
+.nav-pc-list {
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #50647A;
+  margin-bottom: 15px;
+  margin-left: 2%;
+}
+
+/* 矢印「↓」のレイアウト */
+.nav-pc-list::after {
+  content: url(../img/top/arrow.png);
+  padding-left: 5px;
+} 
+/* SNS要素グループのレイアウト */
+.sns-info {
+  margin-top: 250px;
+  margin-left: 2%;
+  padding-bottom: 100px;
+}
+
+/* 「SNS」の文字 */
+.sns {
+  font-size: 16px;
+  color: #50647A;
+}
+
+/* ヘッダーの背景画像 */
+.header-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 35.8%;
+  height: 752.58px;
+  z-index: -1;
+  overflow: hidden; /* 枠からはみ出した部分を隠す */
+}
+
+.header-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* 親要素の枠に合わせて動画を切り取る */
+  -o-object-position: center;
+     object-position: center; /* 中央に配置 */
+}
+
+/* カルーセル画像カバーのレイアウト */
+.carousel-cover {
+  height: 752.58px;
+  width: 35.8%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* カルーセル画像のレイアウト */
+.carousel-photo {
+  width: 35.8%; /* 表示領域の幅 */
+  height: 752.58px; /* 表示領域の高さ */
+  -o-object-fit: cover;
+     object-fit: cover; /* 要素の枠いっぱいに表示（トリミングされる） */
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%; /* 表示位置を調整（中央寄せ） */
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+/* headerここまで */
+.top-section {
+  padding-left: 33.7%;
+  padding-right: 35.8%;
+}
+
+.top-title {
+  position: relative; /* 相対位置を指定 */
+  text-align: center;
+  color: #EDE8E4;
+  z-index: 20;
+}
+
+.top-photo {
+  width: 27%; /* 表示領域の幅 */
+  height: 497px; /* 表示領域の高さ */
+  -o-object-fit: cover;
+     object-fit: cover; /* 要素の枠いっぱいに表示（トリミングされる） */
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%; /* 表示位置を調整（中央寄せ） */
+  margin: 0;
+  display: block; /* 余白を防ぐ */
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}/*# sourceMappingURL=style.css.map */

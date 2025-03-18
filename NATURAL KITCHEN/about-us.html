@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ヘルシフードカフェ NATURAL KITCHEN</title>
+
+  <!-- フォント・M PLUS Rounded 1cの読み込み -->
+  
+  <!-- リセットcssの読み込み -->
+  <link href="assets/css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- cssの読み込み -->
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <!-- slickの読み込み -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  
+</head>
+
+<body> 
+  <!-- headerここから -->
+  <header class="header-pc">
+    <div class="shop-logo">
+      <p class="shop-logo-jp">ヘルシフードカフェ</p>
+      <h2 class="shop-logo-en">NATURAL KITCHEN</h2>  
+    </div>
+    <!-- PC用メニューボタン -->
+     <button class="menu-pc" onclick="document.getElementsByClassName('nav-pc-hamburger').style.display = 'block'">
+       <img src="assets/img/bt/bt-hamburger.png" alt="">
+     </button>
+   
+    <!-- PC用ナビゲーションリスト -->
+     <div class="nav-pc-hamburger">
+      <nav>
+        <ul>
+          <li class="nav-pc-list-in-hamburger">Healthy Food</li>
+          <li  class="nav-pc-list-in-hamburger">Menu</li>
+          <li class="nav-pc-list-in-hamburger">Blog</li>
+          <li class="nav-pc-list-in-hamburger">About us</li>
+          <li class="nav-pc-list-in-hamburger">Recruit</li>
+          <li class="nav-pc-list-in-hamburger">Contact</li>
+        </ul>
+      </nav>
+      <!-- 「閉じる」ボタン -->
+       <button class="bt-close-pc" onclick="document.getElementsByClassName('nav-pc-hamburger').style.display = 'none'">
+         <img src="assets/img/bt/bt-close.png" alt="">
+       </button>
+     </div>
+     <div class="sns-info-in-hamburger">
+       <p class="sns">SNS</p>
+       <img class="sns-icon" src="assets/img/sns/icon-instagram-beige.png" alt="インスタグラムのアイコン">
+       <img class="sns-icon" src="assets/img/sns/icon-x-beige.png" alt="xのアイコン">
+       <img class="sns-icon" src="assets/img/sns/icon-facebook-beige.png" alt="フェイスブックのアイコン">
+     </div>
+     <div class="address">
+       <p>
+         〒150-0021<br>
+         東京都渋谷区恵比寿西1-2-3
+       </p>
+     </div>
+     <div class="shop-logo-in-hamburger">
+      <p class="shop-logo-jp-in-hamburger">ヘルシフードカフェ</p>
+      <h2 class="shop-logo-en-in-hamburger">NATURAL KITCHEN</h2>
+     </div>
+  </header>
+  <!-- headerここまで -->
+   
+  <main>  
+    <div class="main-elements-aboutus">
+      <h1 class="main-title-aboutus">About us</h1>
+      <p class="main-info-aboutus">
+        NATURAL KITCHEN は、心と体にやさしいオーガニックフードとドリンクを提供するカフェです。私たちは、自然の恵みを大切にし、厳選したオーガニック食材を使用したメニューで、皆さまに健康的で美味しいひとときをお届けしています。
+      </p>
+    </div>
+
+    <div class="aboutus-elements-01">
+      <img class="about-us-photo-01" src="assets/img/aboutus/aboutus-photo-01.jpg" alt="レジカウンターの写真">
+      <p class="aboutus-info-01">店内は木の温もりを感じる落ち着いた空間で、ナチュラルな雰囲気の中でゆったりとした時間をお過ごしいただけます。オーガニックコーヒーやハーブティー、季節の食材を使ったスムージー、新鮮な野菜をふんだんに使用したサラダやプレートメニューなど、心を満たす料理をご用意しています。</p>
+    </div>
+
+    <div class="aboutus-elements-02">
+      <img class="about-us-photo-02" src="assets/img/aboutus/aboutus-photo-02.jpg" alt="店内メニュー看板の写真">
+      <img class="about-us-photo-03" src="assets/img/aboutus/aboutus-photo-03.jpg" alt="コーヒー豆とホットカフェオレの写真">
+      <img class="about-us-photo-04" src="assets/img/aboutus/aboutus-photo-04.jpg" alt="サラダの写真">
+      <p class="abou-us-info-02">忙しい日常の中で、少しだけ立ち止まり、自然の味わいを楽しむひとときはいかがでしょうか。NATURAL KITCHEN で、オーガニックの美味しさと、心地よい時間をお楽しみください。</p>
+    </div>
+
+    <table class="cafe-table">
+      <tr>
+        <th class="tableheader tableheader-first">店名</th>
+        <td class="cell cell-first">NATURAL KITCHEN</td>
+      </tr>
+      <tr>
+        <th class="tableheader">設立</th>
+        <td class="cell">2015年8月</td>
+      </tr>
+      <tr>
+        <th class="tableheader">代表取締役</th>
+        <td class="cell">Napoleon Dynamite</td>
+      </tr>
+      <tr>
+        <th class="tableheader">所在地</th>
+        <td class="cell">〒150-0021　東京都渋谷区恵比寿西1-2-3</td>
+      </tr>
+      <tr>
+        <th class="tableheader">アクセス</th>
+        <td class="cell">東急東横線「代官山」駅、1番出口より南へ徒歩6分</td>
+      </tr>
+      <tr>
+        <th class="tableheader">電話/FAX</th>
+        <td class="cell">03-0000-0000/03-0000-0000</td>
+      </tr>
+      <tr>
+        <th class="tableheader">メール</th>
+        <td class="cell">info@example.com</td>
+      </tr>
+      <tr>
+        <th class="tableheader">従業員</th>
+        <td class="cell">25名</td>
+      </tr>
+    </table>
+  </main>
+
+  <!-- フッターここから -->
+  <footer class="footer">
+    <p class="copyright">&copy;2025 NATURAL KITCHEN All Rights Reserved.</p>
+
+  </footer>
+  <!-- フッターここまで -->
+
+
+  <!-- slickの読み込み -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- JavaScriptの読み込み -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
